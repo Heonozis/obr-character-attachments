@@ -1,0 +1,16 @@
+{
+  "name": "Character Sheets",
+  "version": "1.0.0",
+  "manifest_version": 1,
+  "author": "Platon Mysnyk",
+  "homepage_url": "https://github.com/Heonozis/obr-character-sheets",
+  "icon": "/logo.png",
+  "description": "See character sheets of your players ont he board",
+  "action": {
+    "title": "Character Sheets",
+    "icon": "/icon.svg",
+    "popover": "/",
+    "height": 129,
+    "width": 340
+  }
+}
