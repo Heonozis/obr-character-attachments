@@ -147,7 +147,7 @@ export function Body() {
     if (!c.gmOnly || playerRole === "GM") {
       return (
         <Avatar
-          sx={{ boxShadow: i === currentTab ? "0px 0px 0px 1px white;" : ''}}
+          sx={{ boxShadow: i === currentTab ? "0px 0px 0px 1px white;" : '' }}
           onClick={(e) => setCurrentTab(i)}
           alt={c.name}
           src={c.image}
@@ -163,7 +163,10 @@ export function Body() {
       return (
         <Box sx={{ overflow: "hidden", borderRadius: '10px', margin: '8px', display: i === currentTab ? 'block' : 'none' }}>
           {c.url ?
-            <iframe src={c.url} height="800" width="400px" style={{ border: '0' }}></iframe>
+            c.url.includes('5esrd') ?
+              <iframe sandbox="allow-scripts" src={c.url} height="800" width="450px" style={{ border: '0' }}></iframe>
+              : 
+              <iframe src={c.url} height="800" width="450px" style={{ border: '0' }}></iframe>
             :
             <form onSubmit={handleSubmit}>
               <FormGroup aria-label="position" row sx={{ padding: '10px' }}>
@@ -189,7 +192,7 @@ export function Body() {
 
   useEffect(() => {
     OBR.action.setHeight(890);
-    OBR.action.setWidth(420);
+    OBR.action.setWidth(470);
   }, []);
 
   return (
