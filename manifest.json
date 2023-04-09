@@ -4,11 +4,11 @@
   "manifest_version": 1,
   "author": "Platon Mysnyk",
   "homepage_url": "https://github.com/Heonozis/obr-character-attachments",
-  "icon": "/obr-character-sheets/logo.png",
-  "description": "See character sheets of your players ont he board",
+  "icon": "/obr-character-attachments/logo.png",
+  "description": "Embed attachments for the players and monsters on the board. you can attach stat blocks and other useful information.",
   "action": {
-    "title": "Character Sheets",
-    "icon": "/obr-character-sheets/icon.svg",
+    "title": "Character Attachments",
+    "icon": "/obr-character-attachments/icon.svg",
     "popover": "https://heonozis.github.io/obr-character-attachments",
     "height": 129,
     "width": 340
