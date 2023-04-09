@@ -35,7 +35,7 @@ export function Body() {
       icons: [
         {
           icon: addIcon,
-          label: "Add Character",
+          label: "Add Attachment",
           filter: {
             every: [
               { key: "type", value: "IMAGE" },
@@ -47,7 +47,7 @@ export function Body() {
         },
         {
           icon: removeIcon,
-          label: "Remove Character",
+          label: "Remove Attachment",
           filter: {
             every: [
               { key: "type", value: "IMAGE" },

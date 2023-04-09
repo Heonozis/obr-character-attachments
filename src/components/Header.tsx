@@ -14,7 +14,7 @@ export function Header({
   return (
     <>
       <CardHeader
-        title="Characters"
+        title="Attachments"
         action={action}
         titleTypographyProps={{
           sx: { fontSize: "1.125rem", fontWeight: "bold", lineHeight: "32px" },
