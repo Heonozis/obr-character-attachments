@@ -1,15 +1,15 @@
 {
-  "name": "Character Sheets",
+  "name": "Character Attachments",
   "version": "1.0.0",
   "manifest_version": 1,
   "author": "Platon Mysnyk",
-  "homepage_url": "https://github.com/Heonozis/obr-character-sheets",
+  "homepage_url": "https://github.com/Heonozis/obr-character-attachments",
   "icon": "/obr-character-sheets/logo.png",
   "description": "See character sheets of your players ont he board",
   "action": {
     "title": "Character Sheets",
     "icon": "/obr-character-sheets/icon.svg",
-    "popover": "https://heonozis.github.io/obr-character-sheets",
+    "popover": "https://heonozis.github.io/obr-character-attachments",
     "height": 129,
     "width": 340
   }
