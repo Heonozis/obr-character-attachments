@@ -163,7 +163,7 @@ export function Body() {
       return (
         <Box sx={{ overflow: "hidden", borderRadius: '10px', margin: '8px', display: i === currentTab ? 'block' : 'none' }}>
           {c.url ?
-            c.url.includes('5esrd') ?
+            c.url.includes('5esrd') || c.url.includes('5e.tools') ?
               <iframe sandbox="allow-scripts" src={c.url} height="800" width="450px" style={{ border: '0' }}></iframe>
               : 
               <iframe src={c.url} height="800" width="450px" style={{ border: '0' }}></iframe>
